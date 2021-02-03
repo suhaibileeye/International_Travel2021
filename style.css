@@ -1,7 +1,12 @@
 body { margin: auto; font-size: medium;
 font-family: georgia;
-width: 100%;}
+width: auto;
+background-color:whitesmoke;}
 
+
+.about { font-family: verdana;}
+.about p {font-size: 20px; text-align: center; font-weight: bold; color: blue;}
+.about h4 {border: 1px;}
 ul {list-style-type: none;
 margin: 0;}
 li {display: inline-block;}
@@ -29,19 +34,22 @@ padding: 29px 96px 29px 64px;}
 
 .diyaarad  {
   background-image: url("/images/travel.jpg");
-  background-color: #cccccc;
-  height: 500px;
+  height: 600px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover ;
   position: relative;
 }
 .booknow {
-    background-color: Green; padding: 8px ​30px 7px 18p;
+    background-color: Green; 
 margin: 20px; 
+
+border: none;
+  color: white; font-weight: bold;
+  padding: 15px 32px;
 
 position: absolute;
 top: 316px;
-right: 516px;
-width: 200px;
+right: 544px;
+width: 175x;
 }
